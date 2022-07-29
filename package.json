@@ -1,0 +1,24 @@
+{
+  "name": "vue3-and-three",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "lunchboxjs": "0.1.4017",
+    "three": "0.142.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@types/three": "0.142.0",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vue-tsc": "^0.38.4"
+  }
+}
